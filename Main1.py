@@ -4,8 +4,8 @@ from ctypes import *
 import cv2
 import face_function as fun
 import threading
-Appkey = b'ALsUHNWKKrbHNGdqFcq1TmqynLLMKhtVYw7PamPTvMw2'
-SDKey = b'3N8mKt69VBW3J8kZQzPtUNs3GNhPPTCZBSTnCTULcs95'
+Appkey = b'****************'
+SDKey = b'*******************'
 # 激活
 ret = fun.JH(Appkey, SDKey)
 if ret == 0 or ret == 90114:
